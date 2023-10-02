@@ -1,0 +1,105 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background: linear-gradient(to right, #ffffff, #943840);
+    color: #522a40;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #ffffff, #943840);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+
+.content-box {
+    background: linear-gradient(to bottom, #005f81, #56d3d9); /* Gradient from darker red to brighter red */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Slightly more pronounced shadow */
+    display: block;
+    margin: 50px auto;
+    width: 80%; /* Adjust width as needed */
+    color: #1a1842;
+}
+
+.content-box h1,
+.content-box h2,
+.content-box h3,
+.content-box h4,
+.content-box h5,
+.content-box h6 {
+    color: #ffffff;
+}
+
+footer {
+    background: linear-gradient(to right, #ffffff, #943840);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #1a1842; /* Darker shade of red for subtleness */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Support Form Styles */
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+label {
+    align-self: flex-start;
+    margin-bottom: 5px;  /* gives some space between the label and the input field */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;  /* allows the user to resize the textarea vertically only */
+}

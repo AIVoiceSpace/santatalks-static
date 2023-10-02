@@ -1,0 +1,95 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background-color: #2d2d2d; /* Charcoal/Dark Gray */
+    color: #0070FF; /* Electric Blue */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #007BFF, #333333);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFA500; /* Neon Orange for visibility against the gradient */
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #800080; /* Neon Purple for hover */
+}
+
+section {
+    background: linear-gradient(to right, #007BFF, #333333);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mission-statement {
+    background-color: rgba(45, 45, 45, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+
+#banner {
+    background: linear-gradient(to right, #007BFF, #333333);
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFA500; /* Neon Orange for headers */
+}
+
+section#banner a, section#santatalks a {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0070FF; /* Electric Blue */
+    border-radius: 5px;
+    color: #2d2d2d;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+section#banner a:hover, section#santatalks a:hover {
+    background-color: #ff00ff;
+    color: #2d2d2d;
+}
+
+#santatalks p {
+    color: #ffffff; /* This makes the text white */
+}
+
+footer {
+    background: linear-gradient(to right, #007BFF, #333333);
+    padding: 20px 0;
+    background-color: #0070FF; /* Electric Blue */
+    text-align: center;
+}
+
+/* Add additional styles as needed */
