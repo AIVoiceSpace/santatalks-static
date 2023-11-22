@@ -72,11 +72,21 @@ footer {
     text-decoration: underline;
 }
 
+.paragraph {
+	max-width: 786px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
 /* Support Form Styles */
 .form-container {
     width: 50%;
     margin: 0 auto;
     padding: 20px;
+		max-width: 500px;
 }
 
 form {
@@ -102,4 +112,16 @@ textarea {
 
 textarea {
     resize: vertical;  /* allows the user to resize the textarea vertically only */
+}
+
+.support-submit {
+	border: 1px solid #ffffff;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.support-submit:hover {
+	background-color: #2594a8;
+	color: #ffffff;
 }
